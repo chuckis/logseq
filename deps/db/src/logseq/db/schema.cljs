@@ -60,9 +60,6 @@
    ;; first block that's not a heading or unordered list
    :block/pre-block? {}
 
-   ;; heading's level (the block must be a heading)
-   :block/heading-level {}
-
    ;; scheduled day
    :block/scheduled {}
 
@@ -114,7 +111,6 @@
     :block/deadline
     :block/repeated?
     :block/pre-block?
-    :block/heading-level
     :block/type
     :block/properties
     :block/properties-order
